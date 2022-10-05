@@ -11,3 +11,20 @@ header {
     background-color: #e5e5e5;
     border: none;
 }
+
+.sidebar {
+    width: 160px;
+    height: calc(100vh - 70px);
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+}
+
+.main-container {
+    width: calc(100vw - 160px);
+    height: calc(100vh - 70px);
+}
+
+.main-container .banner {
+    background-color: #1a73e8;
+    color: white;
+}
