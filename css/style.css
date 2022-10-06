@@ -26,6 +26,10 @@ header {
     color: white;
 }
 
+.sidebar a:hover {
+    color: #1a73e8;
+}
+
 .banner .banner-btn {
     text-decoration: none;
     color: white;
@@ -70,6 +74,20 @@ header {
     white-space: nowrap;
 }
 
+.mc-table th:not(:first-child) {
+    text-align: center;
+}
+
+.mc-table td:not(:first-child) {
+    text-align: center;
+}
+
+.mc-table td img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
 .mc-table .t-col-class {
     width: 100%;
 }
@@ -88,6 +106,20 @@ header {
 @media screen and (max-width: 1290px) {
     .sidebar ul li a:last-child,
     .sidebar-bt a:last-child {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .mc-table th:nth-child(2),
+    .mc-table td:nth-child(2) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .mc-table th:nth-child(3),
+    .mc-table td:nth-child(3) {
         display: none;
     }
 }
