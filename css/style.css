@@ -29,10 +29,14 @@ header {
     color: white;
 }
 
+.mc-table {
+    table-layout: auto;
+}
+
 .mc-table thead {
     border-bottom-color: black;
 }
 
 .mc-table .t-col-class {
-    width: 60%;
+    width: 100%;
 }
