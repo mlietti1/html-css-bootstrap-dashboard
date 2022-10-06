@@ -14,14 +14,24 @@ header {
 
 .sidebar {
     font-family: 'Poppins', sans-serif;
-    width: 160px;
     height: calc(100vh - 70px);
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
 }
 
+.banner .banner-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #00000037;
+    border-radius: 1rem;
+    padding: 0.25rem 0.5rem ;
+}
+
+.mc-container {
+    width: 100vw;
+}
+
 .main-container {
-    width: calc(100vw - 160px);
     height: calc(100vh - 70px);
     font-family: 'Roboto', sans-serif;
 }
