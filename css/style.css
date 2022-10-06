@@ -1,6 +1,7 @@
 header {
     height: 70px;
     background-color: #f8f9fa;
+    border-bottom: 1px solid lightgray;
 }
 
 .mc-navbar .container-fluid {
@@ -17,6 +18,12 @@ header {
     height: calc(100vh - 70px);
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
+    color: white;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
 }
 
 .banner .banner-btn {
@@ -25,6 +32,10 @@ header {
     background-color: #00000037;
     border-radius: 1rem;
     padding: 0.25rem 0.5rem ;
+}
+
+.banner .banner-btn:hover {
+    background-color: #0000009d;
 }
 
 .mc-container {
@@ -63,11 +74,20 @@ header {
     width: 100%;
 }
 
-.todo .card-content {
+.todo .card-content, .chart .card-content {
     border: 1px solid lightgray;
     border-radius: 5px;
 }
 
-.todo .card-content div:not(:last-child) {
+.todo .card-content div:not(:last-child),
+.chart .card-content div:not(:last-child) {
     border-bottom: 1px solid lightgray;
+}
+
+
+@media screen and (max-width: 1290px) {
+    .sidebar ul li a:last-child,
+    .sidebar-bt a:last-child {
+        display: none;
+    }
 }

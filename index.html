@@ -30,8 +30,20 @@
     <main>
         <div class="mc-container container-fluid">
             <div class="row row-cols-2">
-                <div class="col col-1 sidebar">
-
+                <div class="col d-flex flex-column justify-content-between col-1 sidebar">
+                    <div class="sidebar-top mt-2">
+                        <nav>
+                            <ul class="list-unstyled">
+                                <li class="mt-2"><a href="#"><i class="fa-solid fa-house"></i></a><a class="ms-2" href="#">Home</a></li>
+                                <li class="mt-2"><a href="#"><i class="fa-solid fa-chart-simple"></i></a><a class="ms-2" href="#">Stats</a></li>
+                                <li class="mt-2"><a href="#"><i class="fa-solid fa-signal"></i></a><a class="ms-2" href="#">Signals</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="sidebar-bt mb-2">
+                        <a href="#"><i class="fa-solid fa-gear"></i></a>
+                        <a class="ms-2" href="#">Admin</a>
+                    </div>
                 </div>    
                 <div class="main-container col col-11 p-0 overflow-auto">
                     <div class="banner p-4 container-fluid">
@@ -149,34 +161,34 @@
                                         <div class="card-content p-3">
                                             <div class="accordion accordion-flush" id="accordionFlushExample">
                                                 <div class="accordion-item">
-                                                  <h2 class="accordion-header" id="flush-headingOne">
+                                                    <h2 class="accordion-header" id="flush-headingOne">
                                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                      Accordion Item #1
+                                                        Come si sviluppa un sistema di chat in real time?
                                                     </button>
-                                                  </h2>
-                                                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                                                  </div>
+                                                    </h2>
+                                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nobis fugit architecto rem, possimus neque aperiam mollitia a provident modi dolor quae, ex voluptatum perferendis debitis reiciendis maxime molestiae. Obcaecati.</div>
+                                                    </div>
                                                 </div>
                                                 <div class="accordion-item">
-                                                  <h2 class="accordion-header" id="flush-headingTwo">
+                                                    <h2 class="accordion-header" id="flush-headingTwo">
                                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                      Accordion Item #2
+                                                      Posso usare position:absolute per allineare le colonne?
                                                     </button>
-                                                  </h2>
-                                                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                                  </div>
+                                                    </h2>
+                                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus officia quam eos optio illum rerum ex dicta? Dolore qui maxime omnis iste, eos nisi ab! Nemo architecto rerum eveniet ad.</div>
+                                                    </div>
                                                 </div>
                                                 <div class="accordion-item">
-                                                  <h2 class="accordion-header" id="flush-headingThree">
+                                                    <h2 class="accordion-header" id="flush-headingThree">
                                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                                      Accordion Item #3
+                                                      Il mio sito è responsive?
                                                     </button>
-                                                  </h2>
-                                                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                                                  </div>
+                                                    </h2>
+                                                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque autem consequuntur necessitatibus sed culpa deserunt tempora eius, ipsam adipisci? Unde sequi hic aliquam ratione, in eligendi blanditiis autem animi error?</div>
+                                                    </div>
                                                 </div>
                                               </div>
                                         </div>
@@ -184,12 +196,12 @@
                                 </div>
                                 <div class="col col-lg-4 p-1">
                                     <!-- todo -->
-                                    <div class="card mc-card todo">
+                                    <div class="card mb-3 mc-card todo">
                                         <div class="card-header">
                                             <span class="fs-4">Todo</span>
                                         </div>
-                                        <div class="card-content m-2">
-                                            <div class="input-row p-2">
+                                        <div class="card-content m-3">
+                                            <div class="card-row p-2">
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" id="avvisare" value="Avvisare">
                                                     <label class="form-check-label" for="avvisare">
@@ -197,7 +209,7 @@
                                                     </label>
                                                 </div>
                                             </div>
-                                            <div class="input-row p-2">
+                                            <div class="card-row p-2">
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" id="bootstrap" value="Bootstrap">
                                                     <label class="form-check-label" for="bootstrap">
@@ -205,7 +217,7 @@
                                                     </label>
                                                 </div>
                                             </div>
-                                            <div class="input-row p-2">
+                                            <div class="card-row p-2">
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" id="laravel" value="Laravel">
                                                     <label class="form-check-label" for="laravel">
@@ -215,8 +227,28 @@
                                             </div>
                                         </div>
                                     </div>
-    
-                                    <!-- grafico -->
+                                    <div class="card chart mc-card">
+                                        <div class="card-content m-3">
+                                            <div class="card-row w-100 p-2">
+                                                <img class="w-100" src="img/chart.jpg" alt="Chart">
+                                                <span class="fs-5 mb-2 d-block">Utenti attivi</span>
+                                                <span>Lista degli utenti attivi in piattaforma nell'ultimo mese</span>
+                                            </div>
+                                            <div class="card-row p-2">
+                                                <span>Gennaio: 1200</span>
+                                            </div>
+                                            <div class="card-row p-2">
+                                                <span>Febbraio: 800</span>
+                                            </div>
+                                            <div class="card-row p-2">
+                                                <span>Marzo 1500</span>
+                                            </div>
+                                            <div class="card-row p-2">
+                                                <a href="#">Visualizza report approfondito</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
                                 </div>
                             </div>
                         </div>
