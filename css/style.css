@@ -13,6 +13,7 @@ header {
 }
 
 .sidebar {
+    font-family: 'Poppins', sans-serif;
     width: 160px;
     height: calc(100vh - 70px);
     background-image: url(../img/sidebar-bg.png);
@@ -22,6 +23,7 @@ header {
 .main-container {
     width: calc(100vw - 160px);
     height: calc(100vh - 70px);
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-container .banner {
@@ -29,14 +31,33 @@ header {
     color: white;
 }
 
+.mc-card {
+    border-radius: 5px;
+}
+
 .mc-table {
     table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
 }
 
 .mc-table thead {
     border-bottom-color: black;
 }
 
+.mc-table td {
+    white-space: nowrap;
+}
+
 .mc-table .t-col-class {
     width: 100%;
+}
+
+.todo .card-content {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.todo .card-content div:not(:last-child) {
+    border-bottom: 1px solid lightgray;
 }

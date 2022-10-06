@@ -34,54 +34,117 @@
             </div>
 
             <div class="main-container overflow-auto">
-                <div class="banner container-fluid">
+                <div class="banner p-4 container-fluid">
                     <div class="row row-cols-1 row-cols-lg-2">
-                        <div class="col col-lg-8">a</div>
-                        <div class="col col-lg-4">a</div>
+                        <div class="col col-lg-8">
+                            <div class="mb-3">
+                                <span class="fs-1">Boolean</span>
+                                <a class="banner-btn" href="#">Piano Blaze</a>
+                            </div>
+                            <div>
+                                <a class="banner-btn" href="#"></a>
+                                <a class="banner-btn" href="#"></a>
+                                <a class="banner-btn" href="#"></a>
+                                <a class="banner-btn" href="#"></a>
+                            </div>
+                        </div>
+                        <div class="col col-lg-4">
+                            <div class="mb-3">
+                                <span>Alunni affranti negli ultimi 30 minuti</span>
+                            </div>
+                            <div>
+                                <span class="fs-1">12</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="content">
                     <div class="container-fluid">
                         <div class="row row-cols-1 row-cols-lg-2">
                             <div class="col p-1 col-lg-8">
-                                <!-- tabella e faq -->
+                                <!-- tabella -->
                                 <div class="card mb-3 mc-card next-classes">
                                     <div class="card-header">
-                                        <span>Prossime classi</span>
+                                        <span class="fs-4">Prossime classi</span>
                                     </div>
-                                    <div class="card-content p-2">
+                                    <div class="card-content p-3">
                                         <table class="table mc-table">
                                             <thead>
                                               <tr>
-                                                <th class="t-col-class" scope="col">First</th>
-                                                <th scope="col">Last</th>
-                                                <th scope="col">Handle</th>
+                                                <th class="t-col-class" scope="col">Nome</th>
+                                                <th scope="col">Data inizio</th>
+                                                <th scope="col">ROI</th>
+                                                <th class="col">Stato</th>
+                                                <th class="col">Azioni</th>
                                               </tr>
                                             </thead>
                                             <tbody>
-                                              <tr>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                              </tr>
-                                              <tr>
-                                                <td>Jacob</td>
-                                                <td>Thornton</td>
-                                                <td>@fat</td>
-                                              </tr>
-                                              <tr>
-                                                <td colspan="2">Larry the Bird</td>
-                                                <td>@twitter</td>
-                                              </tr>
+                                                <tr>
+                                                    <td>Classe 75</td>
+                                                    <td>15 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Classe 76</td>
+                                                    <td>16 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Classe 77</td>
+                                                    <td>17 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Classe 78</td>
+                                                    <td>18 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Classe 79</td>
+                                                    <td>19 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Classe 80</td>
+                                                    <td>20 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Classe 81</td>
+                                                    <td>21 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Classe 82</td>
+                                                    <td>22 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
                                             </tbody>
                                           </table>
                                     </div>
                                 </div>
+                                <!-- faq -->
                                 <div class="card mc-card faq">
                                     <div class="card-header">
-                                        <span>F.A.Q.</span>
+                                        <span class="fs-4">F.A.Q.</span>
                                     </div>
-                                    <div class="card-content p-2">
+                                    <div class="card-content p-3">
                                         <div class="accordion accordion-flush" id="accordionFlushExample">
                                             <div class="accordion-item">
                                               <h2 class="accordion-header" id="flush-headingOne">
@@ -117,39 +180,46 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col col-lg-4">
-                                <!-- todo e grafico -->
+                            <div class="col col-lg-4 p-1">
+                                <!-- todo -->
                                 <div class="card mc-card todo">
                                     <div class="card-header">
-                                        <span>Todo</span>
+                                        <span class="fs-4">Todo</span>
                                     </div>
-                                    <div class="card-content p-2">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" id="avvisare" value="Avvisare">
-                                            <label class="form-check-label" for="avvisare">
-                                              Avvisare gli alunni
-                                            </label>
+                                    <div class="card-content m-2">
+                                        <div class="input-row p-2">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="avvisare" value="Avvisare">
+                                                <label class="form-check-label" for="avvisare">
+                                                  Avvisare gli alunni
+                                                </label>
+                                            </div>
                                         </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" id="bootstrap" value="Bootstrap">
-                                            <label class="form-check-label" for="bootstrap">
-                                              Lezione su Bootstrap 5
-                                            </label>
+                                        <div class="input-row p-2">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="bootstrap" value="Bootstrap">
+                                                <label class="form-check-label" for="bootstrap">
+                                                  Lezione su Bootstrap 5
+                                                </label>
+                                            </div>
                                         </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" id="laravel" value="Laravel">
-                                            <label class="form-check-label" for="laravel">
-                                              Conquistare il mondo con Laravel
-                                            </label>
+                                        <div class="input-row p-2">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="laravel" value="Laravel">
+                                                <label class="form-check-label" for="laravel">
+                                                  Conquistare il mondo con Laravel
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+
+                                <!-- grafico -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </main>
 </body>
