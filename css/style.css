@@ -4,6 +4,14 @@ header {
     border-bottom: 1px solid lightgray;
 }
 
+.dropstart .mc-button.dropdown-toggle::before {
+    display: none;
+} 
+
+.dropstart .mc-button i {
+    color: #FFC107;
+}
+
 .mc-navbar .container-fluid {
     background-color: white;
 }
@@ -123,3 +131,4 @@ header {
         display: none;
     }
 }
+
