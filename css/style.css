@@ -16,9 +16,27 @@ header {
     background-color: white;
 }
 
+.mc-navbar .navbar-brand .logo-s {
+    height: 45px;
+}
+
+.mc-navbar form {
+    width: calc(100vw - 135px);
+}
+
 .mc-navbar .searchbar {
     background-color: #e5e5e5;
     border: none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.mc-navbar form > i {
+    background-color: #e5e5e5;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    line-height: 38px;
+    padding-left: 1rem;
 }
 
 .sidebar {

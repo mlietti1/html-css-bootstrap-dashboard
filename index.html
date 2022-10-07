@@ -16,14 +16,16 @@
 <body>
     <header>
         <nav class="navbar mc-navbar navbar-expand-lg bg-light h-100 px-2">
-            <div class="container-fluid">
+            <div class="container-fluid w-100">
                 <a class="navbar-brand" href="#">
-                    <img src="img/logo.svg" alt="Boolean">
+                    <img class="d-none d-lg-block" src="img/logo.svg" alt="Boolean">
+                    <img class="d-lg-none logo-s" src="img/mobile-logo.png" alt="Boolean">
                 </a>
-                <form class="d-flex w-100" role="search">
-                    <input class="form-control searchbar w-100" type="search" placeholder="Prova a cercare 'Quanti ragazzi di classe 75 mangiano la pizza'" aria-label="Search">
-                    <a class="btn" href="#"><i class="fa-solid fa-list"></i></a>
-                    <a class="btn" href="#"><i class="fa-solid fa-circle-question"></i></a>
+                <form class="d-flex" role="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="form-control searchbar" type="search" placeholder="Prova a cercare 'Quanti ragazzi di classe 75 mangiano la pizza'" aria-label="Search">
+                    <a class="btn d-none d-lg-block" href="#"><i class="fa-solid fa-list"></i></a>
+                    <a class="btn d-none d-lg-block" href="#"><i class="fa-solid fa-circle-question"></i></a>
                     <div class="dropstart">
                         <button class="btn mc-button dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-bell"></i>
